@@ -1,0 +1,516 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.html {
+    scroll-behavior: smooth;
+}
+
+.top {
+
+    border-radius: 12px;
+    padding-top: 8px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    background-color: purple;
+    color: antiquewhite;
+    height: 40px;
+
+
+}
+
+.logo {
+    display: flex;
+    /* padding-top: 4px; */
+    font-size: 15px;
+    width: 40%;
+    padding-right: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo1 {
+    /* padding-right: 40px; */
+}
+
+.logo h2 {
+    margin-right: 2px;
+}
+
+.logo img {
+    width: 50%;
+    height: 100%;
+    /* height: 50px; */
+    width: 50px;
+    margin-right: 10px;
+    border-radius: 50%;
+
+}
+
+.navbar {
+background-image:url("t1.jpg");
+background-size: cover;
+/* background-position: center; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0px;
+    cursor: pointer;
+
+}
+
+.navlist {
+    width: 100%;
+    padding-right: 170px;
+    /* background-color: rgb(0, 0, 0); */
+    display: flex;
+    align-items: center;
+}
+
+.navlist li {
+    list-style: none;
+    /* display: block; */
+    padding: 20px 30px;
+    font-size: 19px;
+
+}
+
+.navlist li a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    color: white;
+}
+
+.navlist li a:hover {
+    color: gray;
+}
+
+.rightnav {
+    /* background-color: red; */
+    width: 30%;
+    text-align: right;
+    /* padding: 0px 23px; */
+    display: flex;
+    padding-left: 100px;
+}
+
+button {
+    display: inline;
+    /* background-color: rgb(230, 115, 130); */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 2px solid black;
+    border-radius: 20px;
+    cursor: pointer;
+    text-align: left;
+    padding: 10px 25px 10px 25px;
+    margin: 10px;
+    /* margin: 20px 130px 0px 30px; */
+
+}
+
+/* button:hover {
+    background-color: red;
+    color: rgb(185, 132, 185);
+    padding: 12px 12px 12px 12px;
+} */
+
+button:active {
+    background-color: rgb(15, 221, 32);
+    box-shadow: 0px 0px 30px rgb(247, 0, 255);
+
+}
+
+
+.first {
+    display: inline-block;
+    /* margin-top: 50px; */
+    /* padding-bottom: 60px; */
+    margin-left: 30px;
+    /* padding-bottom: 60px;
+    margin-bottom: 100px; */
+
+
+}
+
+.first textbig {
+    margin-left: 100px;
+    margin: 30px;
+
+}
+
+.textbig {
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 50px;
+
+
+}
+
+.first p {
+    margin-left: 10px;
+    padding-top: 50px;
+
+
+}
+
+.first button {
+    /* margin-left: 60px; */
+
+}
+
+.btn1 {
+    background-color: rgb(0, 223, 48);
+    color: white;
+   margin-top: 30px;
+   margin-bottom: 30px;
+
+}
+
+.left {
+    display: flex;
+    display: inline-block;
+    /* margin-left: 200px; */
+    /* margin-top: 10px; */
+    /* margin-top: 100px; */
+    padding-left: 100px;
+    padding-bottom: 100px;
+
+}
+
+.left img {
+    height: 450px;
+    width: 700px;
+    padding-top: 40px;
+    border-radius: 20px;
+    -webkit-backdrop-filter: none;
+}
+
+.firstsection {
+    max-height: fit-content;
+}
+
+.container first {
+    padding-bottom: 120px;
+
+}
+
+.container {
+    margin-top: 0px;
+}
+
+.sec {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    height: 160px;
+    width: 150px;
+    font-size: 20px;
+    font-weight: bolder;
+    box-shadow: 4px 4px 4px 4px gray;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color:rgb(247, 0, 255);
+    padding: 20px;
+    margin: 30px;
+    cursor: pointer;
+    display: flex;
+    border-radius: 15px;
+    display: inline-block;
+}
+
+.card:hover {
+    transition: all 0.5s ease-in-out;
+    transform: translate(3px, 3px);
+    @keyframes sham {
+        100%{
+        }
+    }
+}
+
+.card .logo {
+    justify-content: center;
+    /* background-color: rgb(25, 0, 255); */
+    align-items: center;
+    padding: 20px;
+    margin: 20px;
+    aspect-ratio: 3/2;
+
+
+}
+.s{
+    padding: 10px;
+    margin: 10px;
+}
+
+.card1 {
+    margin-left: 50px;
+    /* background-color: rgb(240, 238, 238); */
+
+}
+
+.secondsec {
+    /* background-image: url("t10.jpg")no-repeat; */
+/* background-color: rgb(31, 29, 29); */
+}
+
+.third {
+    margin-top: 20px;
+    padding-top: 70px;
+    background-color: rgb(240, 238, 238);
+
+    /* background-color: red; */
+}
+
+.card2 {
+    height: 120px;
+    width: 230px;
+    box-shadow: 4px 4px 4px gray;
+    text-align: center;
+    align-items: center;
+    border: 1px solid black;
+    justify-content: center;
+    /* background-color: red; */
+    padding: 20px;
+    margin: 20px;
+    cursor: pointer;
+    display: flex;
+    border-radius: 15px;
+    display: inline-block;
+}
+
+.card2 img {
+    width: 50%;
+    height: 100%;
+    height: 70px;
+    width: 70px;
+    margin-top: 18PX;
+
+    /* margin-right: 10px; */
+    border-radius: 50%;
+
+}
+
+.text2 {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.textbig2 {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.card3 {
+    height: 300px;
+    width: 230px;
+    box-shadow: 4px 4px 4px 4px gray;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    /* background-color: red; */
+    /* padding: 20px; */
+    margin: 45px;
+
+    cursor: pointer;
+    display: flex;
+    border-radius: 15px;
+    display: inline-block;
+}
+
+.para2 {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.course {
+    margin-top: 20px;
+    padding-top: 50px;
+}
+
+.lastbtn {
+    display: inline;
+    background-color: rgb(0, 223, 48);
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 2px solid black;
+    border-radius: 20px;
+    cursor: pointer;
+    /* text-align: left; */
+    padding: 10px 30px 10px 30px;
+    /* margin: 10px; */
+
+}
+
+.logo3 {
+    display: flex;
+   
+    /* padding-top: 4px; */
+    font-size: 15px;
+    aspect-ratio: 3/2;
+    border-radius: 12px;
+    width: 100%;
+    height: 90%;
+    width: 100%;
+    /* padding-right: 0px; background: #ce1e1e; */
+    justify-content: center;
+    align-items: center;
+}
+
+.t {
+    display: flex;
+    display: inline-block;
+}
+
+.m {
+    color: red;
+    display: flex;
+    display: inline-block;
+}
+
+.r {
+    font-size: 20px;
+
+    font-weight: bold;
+}
+
+.btn3 {
+
+    justify-content: center;
+    margin-left: 600px;
+    align-items: center;
+    display: flex;
+
+
+}
+
+.forth {
+    margin-top: 20px;
+    padding-top: 70px;
+}
+
+/* .logo4 {
+    display: flex;
+    display: inline-block;
+    height: 400px;
+    width: 450px;
+    padding: 10px;
+    padding-bottom: 40px;
+    padding-left: 0px;
+    /* margin-bottom: 220px; */
+
+
+.last4 {
+    display: inline-block;
+    /* display: flex; */
+}
+
+.last4 img {
+    display: inline-block;
+    /* display: flex; */
+    height: 250px;
+    /* border-radius: 40px; */
+    width: 650px;
+    padding: 5px;
+}
+
+.card5 {
+    height: 200px;
+    width: 230px;
+    /* box-shadow: 4px 4px 4px 4px gray; */
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    /* background-color: red; */
+    padding: 20px;
+    margin: 30px;
+    cursor: pointer;
+    display: flex;
+    /* font-weight: bolder; */
+    border-radius: 15px;
+    display: inline-block;
+}
+
+.card5 a {
+
+    display: block;
+    padding: 10px;
+}
+
+.logo5 {
+    display: inline-block;
+    padding: 10px 6px 5px 5px;
+
+}
+
+.logo5 img {
+    display: flex;
+    display: inline-block;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+
+}
+.logo5:hover {
+    padding: 0px 2px 0px 2px;
+
+   background-color: red;
+}
+
+
+.para5 {
+    /* font-weight: bold; */
+    padding: 10px;
+}
+
+.five {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+input {
+    border-radius: 12px;
+    padding: 7px;
+    margin-top: 10px;
+}
+
+.no {
+    text-align: center;
+    background-color: rgb(201, 185, 185);
+    padding: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+footer {
+    margin-top: 20px;
+    background-color: rgb(239, 238, 240);
+
+
+}
+
+
+@media only screen and (max-width=1140px) {
+    .navbar {
+        flex-direction: column;
+    }
+    .navlist {
+        flex-direction: column;
+    }
+    .navlist {
+        flex-direction: column;
+    }
+    
+}
